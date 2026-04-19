@@ -1,0 +1,54 @@
+.vscode/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+
+# Python cache and environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging and build
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Testing / lint caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets / env files
+.env
+.env.*
+
+# Training artifacts (do not version model weights and generated outputs)
+*.pt
+*.pth
+*.ckpt
+*.onnx
+runs/
+logs/
+outputs/
+preprocessed_samples/
+fer2013_resnet50_outputs/
+
+# Local data dumps
+data/
+datasets/
